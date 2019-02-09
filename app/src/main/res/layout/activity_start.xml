@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="@color/Green"
+        android:text="GO!"
+        android:textStyle="bold"
+        android:textSize="100sp"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:id="@+id/goButton"
+        android:clickable="true"/>
+</RelativeLayout>

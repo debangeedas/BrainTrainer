@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="16dp"
+        android:layout_marginTop="60dp"
+        android:text="GAME OVER"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="84dp"
+        android:layout_gravity="center_horizontal"
+        android:padding="16dp"
+        android:text="YOUR SCORE IS"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="10/20"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        android:id="@+id/finalScore"/>
+
+    <TextView
+        android:id="@+id/playAgain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/Green"
+        android:padding="16dp"
+        android:layout_marginTop="40dp"
+        android:text="PLAY AGAIN"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

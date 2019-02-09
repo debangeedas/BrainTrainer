@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="24dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/topBar">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:background="@color/Orange"
+            android:text="30s"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:id="@+id/countdownText"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/questionText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:gravity="center"
+            android:paddingHorizontal="16dp"
+            android:paddingVertical="16dp"
+            android:text="2 + 3"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:background="@color/Purple"
+            android:textColor="#ffffff"
+            android:text="0/0"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:id="@+id/scoreText"
+            android:layout_weight="2"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="30dp"
+        android:paddingHorizontal="24dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/firstTwoOptions"
+        android:layout_below="@+id/topBar">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:background="@color/Red"
+            android:text="1"
+            android:textStyle="bold"
+            android:textSize="50sp"
+            android:gravity="center"
+            android:id="@+id/option1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:background="@color/SkyBlue"
+            android:text="2"
+            android:textStyle="bold"
+            android:textSize="50sp"
+            android:gravity="center"
+            android:id="@+id/option2"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingHorizontal="24dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/lastTwoOptions"
+        android:layout_below="@+id/firstTwoOptions">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:background="@color/Yellow"
+            android:text="3"
+            android:textStyle="bold"
+            android:textSize="50sp"
+            android:gravity="center"
+            android:id="@+id/option3"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:background="@color/Green"
+            android:text="4"
+            android:textStyle="bold"
+            android:textSize="50sp"
+            android:gravity="center"
+            android:id="@+id/option4"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:layout_centerHorizontal="true"
+        android:text=""
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:id="@+id/rightWrongText"
+        android:layout_below="@+id/lastTwoOptions"/>
+
+</RelativeLayout>
