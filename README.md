@@ -1,1 +1,3 @@
 # BrainTrainer
+
+A handy helper for mental maths specially for tech-savvy kids...
